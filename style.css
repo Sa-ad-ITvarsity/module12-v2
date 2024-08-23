@@ -1,0 +1,36 @@
+/* style.css */
+
+body {
+    background-color: #000000; /* Black background */
+    color: #00ffff; /* Neon blue text color */
+}
+
+input[type="text"], input[type="file"], form label, table, button {
+    background-color: transparent;
+    border: 2px solid #00ffff; /* Neon blue borders */
+    color: #00ffff; /* Neon blue text */
+}
+
+button {
+    background-color: transparent;
+    color: #00ffff; /* Neon blue text */
+    border: 2px solid #00ffff; /* Neon blue borders */
+}
+
+button:hover {
+    background-color: #00ffff; /* Neon blue hover background */
+    color: #000000; /* Black text on hover */
+    transition: 0.3s;
+}
+
+#avatarImage img {
+    border: 3px solid #00ffff; /* Neon blue border around images */
+}
+
+h5 {
+    color: #00ffff; /* Neon blue headings */
+}
+
+table tr:hover {
+    background-color: #001f1f; /* Darker blue hover effect */
+}
